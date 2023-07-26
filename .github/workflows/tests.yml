@@ -10,6 +10,9 @@ on: [push, pull_request]
 
 jobs:
   test-pnpm:
+    defaults:
+      run:
+        working-directory: pnpm/react-vite
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -46,9 +49,11 @@ jobs:
         run: |
           yarn test-storybook:ci
 
-
   test-yarn-pnp:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: yarn-pnp/react-vite
     steps:
       - uses: actions/checkout@v3
 
@@ -58,7 +63,8 @@ jobs:
           node-version: 16.x
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: |
+          yarn install
 
       - name: Run test runner
         run: |
