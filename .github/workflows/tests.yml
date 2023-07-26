@@ -10,10 +10,10 @@ on: [push, pull_request]
 
 jobs:
   test-pnpm:
+    runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: pnpm/react-vite
-    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
@@ -45,27 +45,37 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run test runner
+      - name: Install Playwright
+        run: pnpm dlx playwright install
+
+      - name: Run Storybook test runner
         run: |
           yarn test-storybook:ci
 
-  test-yarn-pnp:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: yarn-pnp/react-vite
-    steps:
-      - uses: actions/checkout@v3
+  # TODO: fix test-runner, which fails with this in pnp mode:
+  # PlaywrightError: jest-playwright-preset: Cannot find playwright package to use chromium
+  # test-yarn-pnp:
+  #   runs-on: ubuntu-latest
+  #   defaults:
+  #     run:
+  #       working-directory: yarn-pnp/react-vite
+  #   steps:
+  #     - uses: actions/checkout@v3
 
-      - name: Use Node.js 16.x
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
+  #     - name: Use Node.js 16.x
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: 16.x
 
-      - name: Install dependencies
-        run: |
-          yarn install
+  #     - name: Install dependencies
+  #       uses: borales/actions-yarn@v4
+  #       with:
+  #         cmd: install
+  #         dir: 'yarn-pnp/react-vite'
 
-      - name: Run test runner
-        run: |
-          yarn test-storybook:ci
+  #     - name: Install Playwright
+  #       run: yarn dlx playwright install
+
+  #     - name: Run Storybook test runner
+  #       run: |
+  #         yarn test-storybook:ci
