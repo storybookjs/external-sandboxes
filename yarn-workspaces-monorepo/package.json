@@ -4,7 +4,8 @@
     "description": "",
     "private": true,
     "scripts": {
-        "storybook": "yarn workspace storybook-app storybook"
+        "storybook": "yarn workspace storybook-app storybook",
+        "test-storybook": "yarn workspace storybook-app test-storybook"
     },
     "workspaces": [
         "packages/*"
