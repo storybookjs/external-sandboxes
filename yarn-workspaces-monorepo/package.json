@@ -1,0 +1,13 @@
+{
+    "name": "yarn-workspaces-monorepo",
+    "version": "0.0.1",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "storybook": "yarn workspace storybook-app storybook"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "packageManager": "yarn@3.6.1"
+}

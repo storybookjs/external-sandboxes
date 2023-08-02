@@ -32,8 +32,8 @@ dist-ssr
 *.sw?
 
 # Storybook related
-.nyc_output
-coverage
-test-results.json
+/**/.nyc_output
+/**/coverage
+/**/test-results.json
 **/junit.xml
-storybook-static
+/**/storybook-static

@@ -22,10 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Storybook related
-.nyc_output
-coverage
-test-results.json
-**/junit.xml
-storybook-static
