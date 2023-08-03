@@ -3728,9 +3728,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/test-runner@npm:0.12.1--canary.339.848d743.0":
-  version: 0.12.1--canary.339.848d743.0
-  resolution: "@storybook/test-runner@npm:0.12.1--canary.339.848d743.0"
+"@storybook/test-runner@npm:0.12.1--canary.339.90fb7b2.0":
+  version: 0.12.1--canary.339.90fb7b2.0
+  resolution: "@storybook/test-runner@npm:0.12.1--canary.339.90fb7b2.0"
   dependencies:
     "@babel/core": ^7.22.5
     "@babel/generator": ^7.22.5
@@ -3761,7 +3761,7 @@ __metadata:
     ts-dedent: ^2.0.0
   bin:
     test-storybook: dist/test-storybook.js
-  checksum: e78385afec609aa5117627d6e43b1487f696c7490f6492ec50be3dc1413b181b9a0efa6a1d9005bfe5caf323d08c309137fcdac3219b68b55ca32370d91b0f25
+  checksum: 1494203350cd99892baadfeb324bee3761e8a2a6d76f42100d7e76553726445a308a6f0b9280cf7fc9cbea31ce97c754261026bbd4a4225001f9b99cbb5d5030
   languageName: node
   linkType: hard
 
@@ -10501,9 +10501,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-vite@workspace:packages/react-vite":
+"react-vite-app@workspace:packages/react-vite-app":
   version: 0.0.0-use.local
-  resolution: "react-vite@workspace:packages/react-vite"
+  resolution: "react-vite-app@workspace:packages/react-vite-app"
+  dependencies:
+    "@types/react": ^18.2.15
+    "@types/react-dom": ^18.2.7
+    "@typescript-eslint/eslint-plugin": ^6.0.0
+    "@typescript-eslint/parser": ^6.0.0
+    "@vitejs/plugin-react": ^4.0.3
+    eslint: ^8.45.0
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-react-refresh: ^0.4.3
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    typescript: ^5.0.2
+    vite: ^4.4.5
+  languageName: unknown
+  linkType: soft
+
+"react-vite-components@workspace:packages/react-vite-components":
+  version: 0.0.0-use.local
+  resolution: "react-vite-components@workspace:packages/react-vite-components"
   dependencies:
     "@types/react": ^18.2.15
     "@types/react-dom": ^18.2.7
@@ -11276,7 +11295,7 @@ __metadata:
     "@storybook/blocks": ^7.2.0
     "@storybook/react": ^7.2.0
     "@storybook/react-vite": ^7.2.0
-    "@storybook/test-runner": 0.12.1--canary.339.848d743.0
+    "@storybook/test-runner": 0.12.1--canary.339.90fb7b2.0
     "@storybook/testing-library": ^0.2.0
     "@types/react": ^18.2.15
     "@types/react-dom": ^18.2.7
