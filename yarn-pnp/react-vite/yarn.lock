@@ -4426,7 +4426,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:>=16, @types/react@npm:^18.2.15":
+"@types/react@npm:*, @types/react@npm:>=16":
   version: 18.2.16
   resolution: "@types/react@npm:18.2.16"
   dependencies:
@@ -4434,6 +4434,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 3d4fdc12509e0098e0dbb4bacdea53e8ccc6632e9df63d9f2711c77aa81ce3b2bb9c76d087f284034b25fd7245680167f4832bf6e4df960c5af2634b52adfd0c
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.2.17":
+  version: 18.2.20
+  resolution: "@types/react@npm:18.2.20"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 30f699c60e5e4bfef273ce64d320651cdd60f5c6a08361c6c7eca8cebcccda1ac953d2ee57c9f321b5ae87f8a62c72b6d35ca42df0e261d337849952daab2141
   languageName: node
   linkType: hard
 
@@ -5244,38 +5255,6 @@ __metadata:
   checksum: 669632eb3745404c2f822a18fc3a0122d2f9a7a13f7fb8b5823ee19d1d2ff9ee5b52c53367176ea4ad093c332fd5ab4bd0ebae5a8e27917a4105a4cfc86b1005
   languageName: node
   linkType: hard
-
-"before-storybook@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "before-storybook@workspace:."
-  dependencies:
-    "@storybook/addon-essentials": ^7.2.0-alpha.0
-    "@storybook/addon-interactions": ^7.2.0-alpha.0
-    "@storybook/addon-links": ^7.2.0-alpha.0
-    "@storybook/addon-onboarding": ^1.0.8
-    "@storybook/blocks": ^7.2.0-alpha.0
-    "@storybook/react": ^7.2.0-alpha.0
-    "@storybook/react-vite": ^7.2.0-alpha.0
-    "@storybook/test-runner": ^0.11.0
-    "@storybook/testing-library": ^0.2.0
-    "@types/react": ^18.2.15
-    "@types/react-dom": ^18.2.7
-    "@typescript-eslint/eslint-plugin": ^6.0.0
-    "@typescript-eslint/parser": ^6.0.0
-    "@vitejs/plugin-react": ^4.0.3
-    concurrently: ^8.2.0
-    eslint: ^8.45.0
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-react-refresh: ^0.4.3
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    serve: ^14.2.0
-    storybook: ^7.2.0-alpha.0
-    typescript: ^5.0.2
-    vite: ^4.4.5
-    wait-on: ^7.0.1
-  languageName: unknown
-  linkType: soft
 
 "better-opn@npm:^3.0.2":
   version: 3.0.2
@@ -7388,7 +7367,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -11189,7 +11168,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.22.3
-  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=07638b"
   dependencies:
     is-core-module: ^2.12.0
     path-parse: ^1.0.7
@@ -12232,11 +12211,11 @@ __metadata:
 
 "typescript@patch:typescript@^5.0.2#~builtin<compat/typescript>":
   version: 5.1.6
-  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"
+  resolution: "typescript@patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f53bfe97f7c8b2b6d23cf572750d4e7d1e0c5fff1c36d859d0ec84556a827b8785077bc27676bf7e71fae538e517c3ecc0f37e7f593be913d884805d931bc8be
+  checksum: 21e88b0a0c0226f9cb9fd25b9626fb05b4c0f3fddac521844a13e1f30beb8f14e90bd409a9ac43c812c5946d714d6e0dee12d5d02dfc1c562c5aacfa1f49b606
   languageName: node
   linkType: hard
 
@@ -12962,6 +12941,38 @@ __metadata:
   checksum: 73b572e863aa4a8cbef323dd911d79d193b772defd5a51aab0aca2d446655216f5002c42c5306033968193bdbf892a7a4c110b0d77954a7fdf563e653967b56a
   languageName: node
   linkType: hard
+
+"yarn-pnp-react-vite@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "yarn-pnp-react-vite@workspace:."
+  dependencies:
+    "@storybook/addon-essentials": ^7.2.0-alpha.0
+    "@storybook/addon-interactions": ^7.2.0-alpha.0
+    "@storybook/addon-links": ^7.2.0-alpha.0
+    "@storybook/addon-onboarding": ^1.0.8
+    "@storybook/blocks": ^7.2.0-alpha.0
+    "@storybook/react": ^7.2.0-alpha.0
+    "@storybook/react-vite": ^7.2.0-alpha.0
+    "@storybook/test-runner": ^0.11.0
+    "@storybook/testing-library": ^0.2.0
+    "@types/react": ^18.2.17
+    "@types/react-dom": ^18.2.7
+    "@typescript-eslint/eslint-plugin": ^6.0.0
+    "@typescript-eslint/parser": ^6.0.0
+    "@vitejs/plugin-react": ^4.0.3
+    concurrently: ^8.2.0
+    eslint: ^8.45.0
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-react-refresh: ^0.4.3
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    serve: ^14.2.0
+    storybook: ^7.2.0-alpha.0
+    typescript: ^5.0.2
+    vite: ^4.4.5
+    wait-on: ^7.0.1
+  languageName: unknown
+  linkType: soft
 
 "yauzl@npm:^2.10.0":
   version: 2.10.0
