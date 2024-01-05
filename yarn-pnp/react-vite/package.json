@@ -25,7 +25,7 @@
     "@storybook/blocks": "^7.6.0-alpha.2",
     "@storybook/react": "^7.6.0-alpha.2",
     "@storybook/react-vite": "^7.6.0-alpha.2",
-    "@storybook/test-runner": "^0.13.0",
+    "@storybook/test-runner": "^0.16.0",
     "@storybook/testing-library": "^0.2.2",
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
@@ -40,7 +40,7 @@
     "storybook": "^7.6.0-alpha.2",
     "typescript": "^5.2.2",
     "vite": "^4.5.0",
-    "wait-on": "^7.0.1"
+    "wait-on": "^7.2.0"
   },
   "packageManager": "yarn@4.0.0"
 }
