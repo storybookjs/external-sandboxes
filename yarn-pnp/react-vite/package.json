@@ -29,8 +29,8 @@
     "@storybook/testing-library": "^0.2.2",
     "@types/react": "^18.2.33",
     "@types/react-dom": "^18.2.14",
-    "@typescript-eslint/eslint-plugin": "^6.9.0",
-    "@typescript-eslint/parser": "^6.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
     "@vitejs/plugin-react": "^4.1.0",
     "concurrently": "^8.2.2",
     "eslint": "^8.52.0",
@@ -39,8 +39,8 @@
     "serve": "^14.2.1",
     "storybook": "^7.6.0-alpha.2",
     "typescript": "^5.2.2",
-    "vite": "^4.5.0",
-    "wait-on": "^7.0.1"
+    "vite": "^5.0.0",
+    "wait-on": "^8.0.0"
   },
   "packageManager": "yarn@4.0.0"
 }
