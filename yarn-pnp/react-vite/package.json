@@ -40,7 +40,7 @@
     "storybook": "^7.6.0-alpha.2",
     "typescript": "^5.2.2",
     "vite": "^4.5.0",
-    "wait-on": "^7.0.1"
+    "wait-on": "^8.0.2"
   },
   "packageManager": "yarn@4.0.0"
 }
