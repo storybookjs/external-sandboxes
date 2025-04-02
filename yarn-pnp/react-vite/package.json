@@ -37,9 +37,9 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "serve": "^14.2.1",
-    "storybook": "^7.6.0-alpha.2",
+    "storybook": "^8.2.0",
     "typescript": "^5.2.2",
-    "vite": "^4.5.0",
+    "vite": "^4.5.11",
     "wait-on": "^7.0.1"
   },
   "packageManager": "yarn@4.0.0"
